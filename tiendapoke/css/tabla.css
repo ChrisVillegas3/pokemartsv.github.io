@@ -1,0 +1,87 @@
+
+/*:::tabla admin:::*/
+
+table{
+
+	background-color: white;
+	text-align: center;
+  margin-left: auto;
+ margin-right: auto;
+	border-collapse: collapse;
+	width: 80%;
+    left :-80%;
+    top: calc(30% - 35px);
+	left: calc(25% - 255px);
+    
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+
+
+  /*:::boton edit productos::*/
+.boton_2{
+ 
+  
+  text-decoration: none;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: helvetica;
+      font-weight: 200;
+      font-size: 23px;
+      font-style: italic;
+      color: #06DBFF ;
+      background-color: #185E83    ;
+      border-radius: 0px;
+      border: 3px double #185E83  ;
+      
+    }
+    .boton_2:hover{
+      opacity: 0.6;
+      text-decoration: none;
+    }
+/*:::boton login::*/
+    .boton_3{
+  
+      height: 60px;
+      width: 250px;
+      
+      text-decoration: none;
+          padding: 3px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-family: helvetica;
+          font-weight: 300;
+          font-size: 25px;
+          font-style: italic;
+          color: #FFFFFF  ;
+          background-color: #000000   ;
+          border-radius: 15px;
+          border: 3px double #000000  ;
+          top: calc(20% - 35px);
+        left: calc(90% - 255px);
+        }
+        .boton_3:hover{
+          opacity: 0.6;
+          text-decoration: none;
+        }
+
+      
