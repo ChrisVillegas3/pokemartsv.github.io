@@ -9,4 +9,12 @@ body {
   }
  
   
-    
+  @font-face {
+    font-family: fuentepoke;
+    src: url(../fuentes/game.ttf);
+}
+
+h1, h3, h4, h2, span{
+    font-family: fuentepoke;
+    font-weight: 900;
+}
